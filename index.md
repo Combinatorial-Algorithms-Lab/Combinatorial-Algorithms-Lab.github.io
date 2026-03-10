@@ -163,7 +163,7 @@ show_sidebar: true
         {{ paper.authors | markdownify | remove: '<p>' | remove: '</p>' }}
       </p>
       <p class="is-size-7 has-text-link is-italic" style="margin-bottom: 0;">
-        {{ paper.venue }} ({{ paper.year }})
+        {{ paper.venue }} ({{ paper.date_detail }})
       </p>
     </div>
   {% endfor %}
