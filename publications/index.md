@@ -33,45 +33,59 @@ show_sidebar: false
     font-style: italic;
     color: #005BAC; 
     font-weight: 500;
+    margin-bottom: 0.2rem;
+  }
+  .pub-date {
+    font-size: 0.9rem;
+    color: #7a7a7a;
+    margin-bottom: 0.5rem;
   }
 </style>
+{% assign category_order = "Preprints, Accepted Journal Papers, Refereed Conference Papers" | split: ", " %}
 
-{% assign grouped_papers = site.data.publications | group_by: "year" | sort: "name" | reverse %}
+{% for category in category_order %}
+{% assign category_papers = site.data.publications | where: "type", category %}
+{% if category_papers.size > 0 %}
+<h2 class="title is-4" {% if forloop.first == false %} {% endif %}>
+{{ category }}
+</h2>
 
-{% for year_group in grouped_papers %}
-  
-  <h2 class="title is-4" {% if forloop.first == false %}style="margin-top: 3rem;"{% endif %}>
-    {{ year_group.name }}
-  </h2>
-
-  {% for paper in year_group.items %}
-  <div class="pub-item">
-    <div class="pub-title">
-      {{ paper.title }}
-    </div>
-    
-    <div class="pub-authors">
-      {{ paper.authors | markdownify | remove: '<p>' | remove: '</p>' }}
-    </div>
-    
-    <div class="pub-venue">
-      {{ paper.venue }}
-    </div>
-
-    <div class="tags is-marginless" style="margin-top: 0.5rem;">
-      {% if paper.pdf %}
-        <a href="{{ paper.pdf }}" class="tag is-link is-light">PDF</a>
-      {% endif %}
+{% for paper in category_papers %}
+<div class="pub-item">
+<div class="pub-title">
+{% if paper.link %}
+<a href="{{ paper.link }}" target="_blank" style="color: inherit;">{{ paper.title }}</a>
+{% else %}
+{{ paper.title }}
+{% endif %}
+</div>
       
-      {% if paper.code %}
-        <a href="{{ paper.code }}" class="tag is-info is-light">Code</a>
-      {% endif %}
+<div class="pub-authors">
+{{ paper.authors | markdownify | remove: '<p>' | remove: '</p>' }}
+</div>
       
-      {% if paper.award %}
-        <span class="tag is-warning is-light">{{ paper.award }}</span>
-      {% endif %}
-    </div>
-  </div>
-  {% endfor %}
+<div class="pub-venue">
+{{ paper.venue }}
+</div>
 
+<div class="pub-date">
+{{ paper.date_detail | default: paper.year }}
+</div>
+
+<div class="tags is-marginless" style="margin-top: 0.5rem;">
+{% if paper.pdf %}
+<a href="{{ paper.pdf }}" class="tag is-link is-light">PDF</a>
+{% endif %}
+
+{% if paper.code %}
+<a href="{{ paper.code }}" class="tag is-info is-light">Code</a>
+{% endif %}
+
+{% if paper.award %}
+<span class="tag is-warning is-light">{{ paper.award }}</span>
+{% endif %}
+</div>
+</div>
+{% endfor %}
+{% endif %}
 {% endfor %}
