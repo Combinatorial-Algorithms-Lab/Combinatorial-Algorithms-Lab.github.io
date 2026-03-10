@@ -6,30 +6,21 @@
 - name: 안정호 (Jungho Ahn)
   group: professor  
   role: Assistant Professor
-  img: /assets/img/prof.jpg
+  img: /assets/img/prof-profile.jpg
   email: junghoahn@inha.ac.kr
   location: 하이테크관 1306호
   website: https://www.junghoahn.com/
-  interests: Graph Theory, Combinatorical Algorithms
+  interests: Structural Graph Theory, Combinatorial Algorithms
 
 # [2] 학생 연구원들
-- name: 김철수 (Cheolsu Kim)
+- name: 손채은 (Chae Eun Son)
   group: researcher
-  role: Ph.D. Student
+  role: Undergraduate Research Assistant
   img: /assets/img/student1.jpg
-  email: cheolsuya@inha.ac.kr
+  email: thscodms04@naver.com
   location: 하이테크관 1106호
   website:
-  interests: Deep Learning
-
-- name: 이영희 (Younghee Lee)
-  group: researcher
-  role: Master Student
-  img: /assets/img/student2.jpg
-  email: younghee@inha.ac.kr
-  location: 하이테크관 1106호
-  website:
-  interests: Network Analysis
+  interests: Graph Theory, Algorithms
 
 - name: 박진하 (Jinha Park)
   group: researcher
@@ -40,12 +31,21 @@
   location: 하이테크관 1106호
   interests: Financial Network Analysis
 
-# [3] 졸업생 (Alumni)
-- name: 박민수 (Minsu Park)
-  group: alumni
-  role: Samsung Electronics
-  img: /assets/img/alumni1.jpg
-  email: minsupark@inha.ac.kr
+- name: 김유진 (Yujin Kim)
+  group: researcher
+  role: Undergraduate Research Assistant
+  img: /assets/img/student2.jpg
+  email: yujin1016@inha.edu
+  location: 하이테크관 1106호
   website:
-  location: 
-  interests: 2024 Ph.D. Gradient
+  interests: Graph Theory, Algorithms
+
+# # [3] 졸업생 (Alumni)
+# - name: 박민수 (Minsu Park)
+#   group: alumni
+#   role: Samsung Electronics
+#   img: /assets/img/alumni1.jpg
+#   email: minsupark@inha.ac.kr
+#   website:
+#   location: 
+#   interests: 2024 Ph.D. Gradient
