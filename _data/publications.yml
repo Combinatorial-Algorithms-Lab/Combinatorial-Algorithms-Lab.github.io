@@ -1,27 +1,263 @@
-- year: 2026
-  date_detail: "March 2026"
-  title: "Optimal Algorithm for Graph Coloring Problems"
-  authors: "**Jinha Park**, Younghee Lee, and **Gildong Hong**"
-  venue: "IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)"
-  type: "Accepted Journal Papers"  # 카테고리 명칭 일치 필수 (Preprints, Accepted Journal Papers, Refereed Conference Papers)
-  pdf: "/assets/pdf/paper1.pdf"
-  code: "https://github.com/combialgolab"
-  award: "Best Paper Award"
+# Accepted Journal Papers
 
 - year: 2026
-  date_detail: "March 2026"
-  title: "Financial Time-series Forecasting using Transformer"
-  authors: "Running Man, **Gildong Hong**"
-  venue: "AAAI Conference on Artificial Intelligence (AAAI), Oral Presentation"
-  type: "Preprints"
-  pdf: "/assets/pdf/paper2.pdf"
-  # code나 award가 없는 논문은 해당 줄을 지우거나 비워두면 버튼이 표시되지 않음.
+  date_detail: "August 2026"
+  title: "Unified almost linear kernels for generalized covering and packing problems on nowhere dense classes"
+  authors: "**Jungho Ahn**, Jinha Kim, and O-joung Kwon"
+  venue: "Journal of Computer and System Sciences (JCSS)"
+  type: "Accepted Journal Papers"  # 카테고리 명칭 일치 필수 (Preprints, Accepted Journal Papers, Refereed Conference Papers)
+  pdf: "/assets/pdf/CALpaper8.pdf"
+  code: 
+  award: 
 
 - year: 2025
   date_detail: "December 2025"
-  title: "New Approach to Combinatorial Optimization"
-  authors: "**Gildong Hong** et al."
-  venue: "NeurIPS 2025"
-  type: "Refereed Conference Papers"
-  pdf: "#"
-  code: "#"
+  title: "The proper conflict-free $k$-coloring problem and the odd $k$-coloring problem are NP-complete on bipartite graphs"
+  authors: "**Jungho Ahn**, Seonghyuk Im, and Sang-il Oum"
+  venue: "Discrete Applied Mathematics (DAM)"
+  type: "Accepted Journal Papers"  # 카테고리 명칭 일치 필수 (Preprints, Accepted Journal Papers, Refereed Conference Papers)
+  pdf: "/assets/pdf/CALpaper7.pdf"
+  code: 
+  award: 
+
+- year: 2025
+  date_detail: "April 2025"
+  title: "Twin-width of subdivisions of multigraphs"
+  authors: "**Jungho Ahn**, Debsoumya Chakraborti, Kevin Hendrey, and Sang-il Oum"
+  venue: "SIAM Journal on Discrete Mathematics (SIDMA)"
+  type: "Accepted Journal Papers"  # 카테고리 명칭 일치 필수 (Preprints, Accepted Journal Papers, Refereed Conference Papers)
+  pdf: "/assets/pdf/CALpaper6.pdf"
+  code: 
+  award: 
+
+- year: 2024
+  date_detail: "June 2024"
+  title: "Twin-width of random graphs"
+  authors: "**Jungho Ahn**, Debsoumya Chakraborti, Kevin Hendrey, Donggyu Kim, and Sang-il Oum"
+  venue: "Random Structures & Algorithms (RSA)"
+  type: "Accepted Journal Papers"  # 카테고리 명칭 일치 필수 (Preprints, Accepted Journal Papers, Refereed Conference Papers)
+  pdf: "/assets/pdf/CALpaper5.pdf"
+  code: 
+  award: 
+
+- year: 2023
+  date_detail: "May 2023"
+  title: "A polynomial kernel for $3$-lear power deletion"
+  authors: "**Jungho Ahn**, Eduard Eiben, O-joung Kwon, and Sang-il Oum"
+  venue: "Algorithmica"
+  type: "Accepted Journal Papers"  # 카테고리 명칭 일치 필수 (Preprints, Accepted Journal Papers, Refereed Conference Papers)
+  pdf: "/assets/pdf/CALpaper4.pdf"
+  code: 
+  award: 
+
+- year: 2022
+  date_detail: "September 2022"
+  title: "Bounds for the twin-width of graphs"
+  authors: "**Jungho Ahn**, Kevin Hendrey, Donggyu Kim, and Sang-il Oum"
+  venue: "SIAM Journal on Discrete Mathematics (SIDMA)"
+  type: "Accepted Journal Papers"  # 카테고리 명칭 일치 필수 (Preprints, Accepted Journal Papers, Refereed Conference Papers)
+  pdf: "/assets/pdf/CALpaper3.pdf"
+  code: 
+  award: 
+
+- year: 2022
+  date_detail: "May 2022"
+  title: "Well-partitioned chordal graphs"
+  authors: "**Jungho Ahn**, Lars Jaffke, O-joung Kwon, and Paloma T. Lima"
+  venue: "Discrete Mathematics (Discrete Math.)"
+  type: "Accepted Journal Papers"  # 카테고리 명칭 일치 필수 (Preprints, Accepted Journal Papers, Refereed Conference Papers)
+  pdf: "/assets/pdf/CALpaper2.pdf"
+  code: 
+  award: 
+
+- year: 2022
+  date_detail: "April 2022"
+  title: "Towards constant-factor approximation for chordal/distance-hereditary vertex deletion"
+  authors: "**Jungho Ahn**, Eun Jung Kim, and Euiwoong Lee"
+  venue: "Algorithmica"
+  type: "Accepted Journal Papers"  # 카테고리 명칭 일치 필수 (Preprints, Accepted Journal Papers, Refereed Conference Papers)
+  pdf: "/assets/pdf/CALpaper1.pdf"
+  code: 
+  award: 
+
+# Refereed Conference Papers
+
+- year: 2025
+  date_detail: "December 2025"
+  title: "Finding $d$-cuts in claw-free graphs"
+  authors: "**Jungho Ahn**, Tala Eagling-Vose, Felicia Lucke, Dani\"{e}l Paulusma, and Siani Smith"
+  venue: "The 36th International Symposium on Algorithms and Computation (**ISAAC 2025**)"
+  type: "Refereed Conference Papers"  # 카테고리 명칭 일치 필수 (Preprints, Accepted Journal Papers, Refereed Conference Papers)
+  pdf: "/assets/pdf/CALconf9.pdf"
+  code: 
+  award: 
+
+- year: 2025
+  date_detail: "August 2025"
+  title: "Approximating maximum cut on interval and split graphs beyond Goemans-Williamson"
+  authors: "**Jungho Ahn**, Ian DeHaan, Eun Jung Kim, and Euiwoong Lee"
+  venue: "The 28th International Conference on Approximation Algorithms for Combinatorial Optimization Problems (**APPROX 2025**)"
+  type: "Refereed Conference Papers"  # 카테고리 명칭 일치 필수 (Preprints, Accepted Journal Papers, Refereed Conference Papers)
+  pdf: "/assets/pdf/CALconf8.pdf"
+  code: 
+  award: 
+
+- year: 2025
+  date_detail: "March 2025"
+  title: "Twin-width one"
+  authors: "**Jungho Ahn**, Hugo Jacob, Noleen K\"{o}hler, Christophe Paul, Amadeus Reinald, and Sebastian Wiederrecht"
+  venue: "The 42nd International Symposium on Theoretical Aspects of Computer Science (**STACS 2025**)"
+  type: "Refereed Conference Papers"  # 카테고리 명칭 일치 필수 (Preprints, Accepted Journal Papers, Refereed Conference Papers)
+  pdf: "/assets/pdf/CALconf7.pdf"
+  code: 
+  award: 
+
+- year: 2025
+  date_detail: "January 2025"
+  title: "A coarse Erd\H{o}s-P\'{o}sa theorem"
+  authors: "**Jungho Ahn**, Pascal Gollin, Tony Huynh, and O-joung Kwon"
+  venue: "The 36th ACM-SIAM Symposium on Discrete Algorithms (**SODA25**)"
+  type: "Refereed Conference Papers"  # 카테고리 명칭 일치 필수 (Preprints, Accepted Journal Papers, Refereed Conference Papers)
+  pdf: "/assets/pdf/CALconf6.pdf"
+  code: 
+  award: 
+
+- year: 2023
+  date_detail: "December 2023"
+  title: "Unified almost linear kernels for generalized covering and packing problems on nowhere dense classes"
+  authors: "**Jungho Ahn**, Jinha Kim, and O-joung Kwon"
+  venue: "The 34th International Symposium on Algorithms and Computation (**ISAAC 2023**)"
+  type: "Refereed Conference Papers"  # 카테고리 명칭 일치 필수 (Preprints, Accepted Journal Papers, Refereed Conference Papers)
+  pdf: "/assets/pdf/CALconf5.pdf"
+  code: 
+  award: 
+
+- year: 2021
+  date_detail: "May 2021"
+  title: "Three problems on well-partitioned chordal graphs"
+  authors: "**Jungho Ahn**, lars Jaffke, O-joung Kwon, and Paloma T. Lima"
+  venue: "The 12th International Conference on Algorithms and Complexity (**CIAC 2021**)"
+  type: "Refereed Conference Papers"  # 카테고리 명칭 일치 필수 (Preprints, Accepted Journal Papers, Refereed Conference Papers)
+  pdf: "/assets/pdf/CALconf4.pdf"
+  code: 
+  award: 
+
+- year: 2020
+  date_detail: "December 2020"
+  title: "Towards constant-factor approximation for chordal/distance-hereditary vertex deletion"
+  authors: "**Jungho Ahn**, Eun Jung Kim, and Euiwoong Lee"
+  venue: "The 31st International Symposium on Algorithms and Computation (**ISAAC 2020**)"
+  type: "Refereed Conference Papers"  # 카테고리 명칭 일치 필수 (Preprints, Accepted Journal Papers, Refereed Conference Papers)
+  pdf: "/assets/pdf/CALconf3.pdf"
+  code: 
+  award: 
+
+- year: 2020
+  date_detail: "August 2020"
+  title: "A polynomial kernel for $3$-leaf power deletion"
+  authors: "**Jungho Ahn**, Eduard Eiben, O-joung Kwon, and Sang-il Oum"
+  venue: "The 45th International Symposium on Mathematical Foundations of Computer Science (**MFCS 2020**)"
+  type: "Refereed Conference Papers"  # 카테고리 명칭 일치 필수 (Preprints, Accepted Journal Papers, Refereed Conference Papers)
+  pdf: "/assets/pdf/CALpaper2.pdf"
+  code: 
+  award: 
+
+- year: 2020
+  date_detail: "June 2026"
+  title: "Well-partitioned chordal graphs: obstruction set and disjoint paths"
+  authors: "**Jungho Ahn**, Lars Jaffke, O-joung Kwon, and Paloma T. Lima"
+  venue: "The 46th Graph-Theoretic Concepts in Computer Science (**WG 2020**)"
+  type: "Refereed Conference Papers"  # 카테고리 명칭 일치 필수 (Preprints, Accepted Journal Papers, Refereed Conference Papers)
+  pdf: "/assets/pdf/CALconf4.pdf"
+  code: 
+  award: 
+
+# Preprints
+
+- year: 2025
+  date_detail: "July 2025"
+  title: "Unavoidable pivot-minors in graphs of large rank-depth"
+  authors: "**Jungho Ahn**, Kevin Hendrey, O-joung Kwon, and Sang-il Oum"
+  venue: "arXiv preprint"
+  type: "Preprints"  # 카테고리 명칭 일치 필수 (Preprints, Accepted Journal Papers, Refereed Conference Papers)
+  pdf: "/assets/pdf/CALarxiv6.pdf"
+  code: 
+  award: 
+
+- year: 2025
+  date_detail: "July 2025"
+  title: "Approximating maximum cut on interval graphs and split graphs beyond Goemans-Williamson"
+  authors: "**Jungho Ahn**, Ian DeHaan, Eun Jung Kim, and Euiwoong Lee"
+  venue: "arXiv preprint"
+  type: "Preprints"  # 카테고리 명칭 일치 필수 (Preprints, Accepted Journal Papers, Refereed Conference Papers)
+  pdf: "/assets/pdf/CALconf8.pdf"
+  code: 
+  award: 
+
+- year: 2025
+  date_detail: "May 2025"
+  title: "Finding $d$-cuts in claw-free graphs"
+  authors: "**Jungho Ahn**, Tala Eagling-Vose, Felicia Lucke, Dani\"{e}l Paulusma, and Siani Smith"
+  venue: "arXiv preprint"
+  type: "Preprints"  # 카테고리 명칭 일치 필수 (Preprints, Accepted Journal Papers, Refereed Conference Papers)
+  pdf: "/assets/pdf/CALconf9.pdf"
+  code: 
+  award: 
+
+- year: 2025
+  date_detail: "January 2025"
+  title: "Twin-width one"
+  authors: "**Jungho Ahn**, Hugo Jacob, Noleen K\"{o}hler, Christophe Paul, Amadeus Reinald, and Sebastian Wiederrecht"
+  venue: "arXiv preprint"
+  type: "Preprints"  # 카테고리 명칭 일치 필수 (Preprints, Accepted Journal Papers, Refereed Conference Papers)
+  pdf: "/assets/pdf/CALconf7.pdf"
+  code: 
+  award: 
+
+- year: 2025
+  date_detail: "January 2025"
+  title: "A coarse Erd\H{o}s-P\'{o}sa theorem"
+  authors: "**Jungho Ahn**, Pascal Gollin, Tony Huynh, and O-joung Kwon"
+  venue: "arXiv preprint"
+  type: "Preprints"  # 카테고리 명칭 일치 필수 (Preprints, Accepted Journal Papers, Refereed Conference Papers)
+  pdf: "/assets/pdf/CALarxiv2.pdf"
+  code: 
+  award: 
+
+- year: 2024
+  date_detail: "January 2024"
+  title: "Spectral integral variation of signed graphs"
+  authors: "**Jungho Ahn**, Cheolwon Heo, and Sunyo Moon"
+  venue: "arXiv preprint"
+  type: "Preprints"  # 카테고리 명칭 일치 필수 (Preprints, Accepted Journal Papers, Refereed Conference Papers)
+  pdf: "/assets/pdf/CALarxiv1.pdf"
+  code: 
+  award: 
+
+# - year: 2026
+#   date_detail: "March 2026"
+#   title: "Optimal Algorithm for Graph Coloring Problems"
+#   authors: "**Jinha Park**, Younghee Lee, and **Gildong Hong**"
+#   venue: "IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)"
+#   type: "Accepted Journal Papers"  # 카테고리 명칭 일치 필수 (Preprints, Accepted Journal Papers, Refereed Conference Papers)
+#   pdf: "/assets/pdf/paper1.pdf"
+#   code: "https://github.com/combialgolab"
+#   award: "Best Paper Award"
+
+# - year: 2026
+#   date_detail: "March 2026"
+#   title: "Financial Time-series Forecasting using Transformer"
+#   authors: "Running Man, **Gildong Hong**"
+#   venue: "AAAI Conference on Artificial Intelligence (AAAI), Oral Presentation"
+#   type: "Preprints"
+#   pdf: "/assets/pdf/paper2.pdf"
+#   # code나 award가 없는 논문은 해당 줄을 지우거나 비워두면 버튼이 표시되지 않음.
+
+# - year: 2025
+#   date_detail: "December 2025"
+#   title: "New Approach to Combinatorial Optimization"
+#   authors: "**Gildong Hong** et al."
+#   venue: "NeurIPS 2025"
+#   type: "Refereed Conference Papers"
+#   pdf: "#"
+#   code: "#"
