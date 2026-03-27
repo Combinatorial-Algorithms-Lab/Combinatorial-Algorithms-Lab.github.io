@@ -161,7 +161,7 @@
   date_detail: "July 2025"
   title: "Unavoidable pivot-minors in graphs of large rank-depth"
   authors: "**Jungho Ahn**, Kevin Hendrey, O-joung Kwon, and Sang-il Oum"
-  venue: "arXiv preprint"
+  # venue: "arXiv preprint"
   type: "Preprints"  # 카테고리 명칭 일치 필수 (Preprints, Accepted Journal Papers, Refereed Conference Papers)
   pdf: "/assets/pdf/CALarxiv6.pdf"
 
@@ -169,7 +169,7 @@
   date_detail: "July 2025"
   title: "Approximating maximum cut on interval graphs and split graphs beyond Goemans-Williamson"
   authors: "**Jungho Ahn**, Ian DeHaan, Eun Jung Kim, and Euiwoong Lee"
-  venue: "arXiv preprint"
+  # venue: "arXiv preprint"
   type: "Preprints"  # 카테고리 명칭 일치 필수 (Preprints, Accepted Journal Papers, Refereed Conference Papers)
   pdf: "/assets/pdf/CALconf8.pdf"
 
@@ -177,7 +177,7 @@
   date_detail: "May 2025"
   title: 'Finding d-cuts in claw-free graphs'
   authors: '**Jungho Ahn**, Tala Eagling-Vose, Felicia Lucke, Daniël Paulusma, and Siani Smith'
-  venue: "arXiv preprint"
+  # venue: "arXiv preprint"
   type: "Preprints"  # 카테고리 명칭 일치 필수 (Preprints, Accepted Journal Papers, Refereed Conference Papers)
   pdf: "/assets/pdf/CALconf9.pdf"
 
@@ -185,7 +185,7 @@
   date_detail: "January 2025"
   title: "Twin-width one"
   authors: "**Jungho Ahn**, Hugo Jacob, Noleen Köhler, Christophe Paul, Amadeus Reinald, and Sebastian Wiederrecht"
-  venue: "arXiv preprint"
+  # venue: "arXiv preprint"
   type: "Preprints"  # 카테고리 명칭 일치 필수 (Preprints, Accepted Journal Papers, Refereed Conference Papers)
   pdf: "/assets/pdf/CALconf7.pdf"
 
@@ -193,7 +193,7 @@
   date_detail: "January 2025"
   title: "A coarse Erdős-Pósa theorem"
   authors: "**Jungho Ahn**, Pascal Gollin, Tony Huynh, and O-joung Kwon"
-  venue: "arXiv preprint"
+  # venue: "arXiv preprint"
   type: "Preprints"  # 카테고리 명칭 일치 필수 (Preprints, Accepted Journal Papers, Refereed Conference Papers)
   pdf: "/assets/pdf/CALarxiv2.pdf"
 
@@ -201,7 +201,7 @@
   date_detail: "January 2024"
   title: "Spectral integral variation of signed graphs"
   authors: "**Jungho Ahn**, Cheolwon Heo, and Sunyo Moon"
-  venue: "arXiv preprint"
+  # venue: "arXiv preprint"
   type: "Preprints"  # 카테고리 명칭 일치 필수 (Preprints, Accepted Journal Papers, Refereed Conference Papers)
   pdf: "/assets/pdf/CALarxiv1.pdf"
 

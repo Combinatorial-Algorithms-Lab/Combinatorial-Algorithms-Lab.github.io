@@ -1,19 +1,19 @@
 - title: "ASIACOMB 2026 참석"
   date: "2026.08"
   location: "Daejeon"
-  image: "/assets/img/activity3.jpg"
+  image: "/assets/img/activity3.png"
   link: "https://asiacomb.com/"
 
 - title: "Summer School on Combinatorics and Algorithms 참석"
   date: "2026.08"
   location: "Daejeon"
-  image: "/assets/img/activity2.jpg"
+  image: "/assets/img/activity2.png"
   link: "https://combialgo.dimag.kr/"
 
 - title: "PACOH workshop: Artificial Intelligence for Combinatorics 참석"
   date: "2026.07"
   location: "Jeju"
-  image: "/assets/img/activity1.jpg"
+  image: "/assets/img/activity1.png"
   link: "https://sites.google.com/view/pacoh"
 
 # - title: "2026 신년 맞이 회식"
