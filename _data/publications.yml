@@ -1,6 +1,7 @@
 # Accepted Journal Papers
 
 - year: 2026
+  date: 2026-01-01 # 이 필드가 메인 페이지의 Recent Publications의 기준이 됩니다. 형식: YYYY-MM-DD 
   date_detail: "August 2026"
   title: "Unified almost linear kernels for generalized covering and packing problems on nowhere dense classes"
   authors: "**Jungho Ahn**, Jinha Kim, and O-joung Kwon"
@@ -10,6 +11,7 @@
   # code: 
 
 - year: 2025
+  date: 2025-12-01
   date_detail: "December 2025"
   title: 'The proper conflict-free k-coloring problem and the odd k-coloring problem are NP-complete on bipartite graphs'
   authors: "**Jungho Ahn**, Seonghyuk Im, and Sang-il Oum"
@@ -19,6 +21,7 @@
   # code: 
 
 - year: 2025
+  datd: 2025-04-01
   date_detail: "April 2025"
   title: "Twin-width of subdivisions of multigraphs"
   authors: "**Jungho Ahn**, Debsoumya Chakraborti, Kevin Hendrey, and Sang-il Oum"
@@ -28,6 +31,7 @@
   # code: 
 
 - year: 2024
+  date: 2024-06-01
   date_detail: "June 2024"
   title: "Twin-width of random graphs"
   authors: "**Jungho Ahn**, Debsoumya Chakraborti, Kevin Hendrey, Donggyu Kim, and Sang-il Oum"
@@ -37,6 +41,7 @@
   # code: 
 
 - year: 2023
+  date: 2023-05-01
   date_detail: "May 2023"
   title: 'A polynomial kernel for 3-lear power deletion'
   authors: "**Jungho Ahn**, Eduard Eiben, O-joung Kwon, and Sang-il Oum"
@@ -46,6 +51,7 @@
   # code: 
 
 - year: 2022
+  date: 2022-09-01
   date_detail: "September 2022"
   title: "Bounds for the twin-width of graphs"
   authors: "**Jungho Ahn**, Kevin Hendrey, Donggyu Kim, and Sang-il Oum"
@@ -55,6 +61,7 @@
   # code: 
 
 - year: 2022
+  date: 2022-05-01
   date_detail: "May 2022"
   title: "Well-partitioned chordal graphs"
   authors: "**Jungho Ahn**, Lars Jaffke, O-joung Kwon, and Paloma T. Lima"
@@ -64,6 +71,7 @@
   # code: 
 
 - year: 2022
+  date: 2022-04-01
   date_detail: "April 2022"
   title: "Towards constant-factor approximation for chordal/distance-hereditary vertex deletion"
   authors: "**Jungho Ahn**, Eun Jung Kim, and Euiwoong Lee"
@@ -75,6 +83,7 @@
 # Refereed Conference Papers
 
 - year: 2025
+  date: 2025-12-01
   date_detail: "December 2025"
   title: 'Finding d-cuts in claw-free graphs'
   authors: "**Jungho Ahn**, Tala Eagling-Vose, Felicia Lucke, Daniël, Paulusma, and Siani Smith"
@@ -84,6 +93,7 @@
   # code: 
 
 - year: 2025
+  date: 2025-08-01
   date_detail: "August 2025"
   title: "Approximating maximum cut on interval and split graphs beyond Goemans-Williamson"
   authors: "**Jungho Ahn**, Ian DeHaan, Eun Jung Kim, and Euiwoong Lee"
@@ -93,6 +103,7 @@
   # code: 
 
 - year: 2025
+  date: 2025-03-01
   date_detail: "March 2025"
   title: "Twin-width one"
   authors: '**Jungho Ahn**, Hugo Jacob, Noleen Köhler, Christophe Paul, Amadeus Reinald, and Sebastian Wiederrecht'
@@ -102,6 +113,7 @@
   # code: 
 
 - year: 2025
+  date: 2025-01-01
   date_detail: "January 2025"
   title: "A coarse Erdős-Pósa theorem"
   authors: "**Jungho Ahn**, Pascal Gollin, Tony Huynh, and O-joung Kwon"
@@ -111,6 +123,7 @@
   # code: 
 
 - year: 2023
+  date: 2023-12-01
   date_detail: "December 2023"
   title: "Unified almost linear kernels for generalized covering and packing problems on nowhere dense classes"
   authors: "**Jungho Ahn**, Jinha Kim, and O-joung Kwon"
@@ -120,6 +133,7 @@
   # code: 
 
 - year: 2021
+  date: 2021-05-01
   date_detail: "May 2021"
   title: "Three problems on well-partitioned chordal graphs"
   authors: "**Jungho Ahn**, lars Jaffke, O-joung Kwon, and Paloma T. Lima"
@@ -129,6 +143,7 @@
   # code: 
 
 - year: 2020
+  date: 2020-12-01
   date_detail: "December 2020"
   title: "Towards constant-factor approximation for chordal/distance-hereditary vertex deletion"
   authors: "**Jungho Ahn**, Eun Jung Kim, and Euiwoong Lee"
@@ -138,6 +153,7 @@
   # code: 
 
 - year: 2020
+  date: 2020-08-01
   date_detail: "August 2020"
   title: 'A polynomial kernel for 3-leaf power deletion'
   authors: "**Jungho Ahn**, Eduard Eiben, O-joung Kwon, and Sang-il Oum"
@@ -147,7 +163,8 @@
   # code: 
 
 - year: 2020
-  date_detail: "June 2026"
+  date: 2020-06-01
+  date_detail: "June 2020"
   title: "Well-partitioned chordal graphs: obstruction set and disjoint paths"
   authors: "**Jungho Ahn**, Lars Jaffke, O-joung Kwon, and Paloma T. Lima"
   venue: "The 46th Graph-Theoretic Concepts in Computer Science (**WG 2020**)"
@@ -158,6 +175,7 @@
 # Preprints
 
 - year: 2026
+  date: 2026-03-01
   date_detail: "March 2026"
   title: "Optimal b-colourings and fall colourings in H-free graphs"
   authors: "**Jungho Ahn**, Tala Eagling-Vose, Felicia Lucke, David Manlove, Fabricio Mendoza, and Daniël Paulusma"
@@ -166,6 +184,7 @@
   pdf: "/assets/pdf/CALarxiv7.pdf"
 
 - year: 2025
+  date: 2025-07-01
   date_detail: "July 2025"
   title: "Unavoidable pivot-minors in graphs of large rank-depth"
   authors: "**Jungho Ahn**, Kevin Hendrey, O-joung Kwon, and Sang-il Oum"
@@ -174,6 +193,7 @@
   pdf: "/assets/pdf/CALarxiv6.pdf"
 
 - year: 2025
+  date: 2025-05-01
   date_detail: "July 2025"
   title: "Approximating maximum cut on interval graphs and split graphs beyond Goemans-Williamson"
   authors: "**Jungho Ahn**, Ian DeHaan, Eun Jung Kim, and Euiwoong Lee"
@@ -182,6 +202,7 @@
   pdf: "/assets/pdf/CALconf8.pdf"
 
 - year: 2025
+  date: 2025-05-01
   date_detail: "May 2025"
   title: 'Finding d-cuts in claw-free graphs'
   authors: '**Jungho Ahn**, Tala Eagling-Vose, Felicia Lucke, Daniël Paulusma, and Siani Smith'
@@ -190,6 +211,7 @@
   pdf: "/assets/pdf/CALconf9.pdf"
 
 - year: 2025
+  date: 2025-01-01
   date_detail: "January 2025"
   title: "Twin-width one"
   authors: "**Jungho Ahn**, Hugo Jacob, Noleen Köhler, Christophe Paul, Amadeus Reinald, and Sebastian Wiederrecht"
@@ -198,6 +220,7 @@
   pdf: "/assets/pdf/CALconf7.pdf"
 
 - year: 2025
+  date: 2025-01-01
   date_detail: "January 2025"
   title: "A coarse Erdős-Pósa theorem"
   authors: "**Jungho Ahn**, Pascal Gollin, Tony Huynh, and O-joung Kwon"
@@ -206,6 +229,7 @@
   pdf: "/assets/pdf/CALarxiv2.pdf"
 
 - year: 2024
+  date: 2024-01-01
   date_detail: "January 2024"
   title: "Spectral integral variation of signed graphs"
   authors: "**Jungho Ahn**, Cheolwon Heo, and Sunyo Moon"

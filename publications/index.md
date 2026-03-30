@@ -47,7 +47,10 @@ show_sidebar: false
 {% assign category_order = "Preprints, Accepted Journal Papers, Refereed Conference Papers" | split: ", " %}
 
 {% for category in category_order %}
-{% assign category_papers = site.data.publications | where: "type", category %}
+  {% comment %} 
+    해당 카테고리의 논문만 모은 뒤, 다시 date 기준으로 최신순 정렬합니다.
+  {% endcomment %}
+{% assign category_papers = site.data.publications | where: "type", category | sort: "date" | reverse %}
 {% if category_papers.size > 0 %}
 <h2 class="title is-4" {% if forloop.first == false %} {% endif %}>
 {{ category }}

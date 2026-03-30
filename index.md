@@ -152,18 +152,25 @@ show_sidebar: true
 
 <div class="content">
   <h3>Recent Publications</h3>
-  {% assign recent_pubs = site.data.publications | slice: 0, 3 %}
-
+  {% comment %}
+    1. 모든 논문을 'date' 필드 기준으로 정렬하고 순서를 뒤집습니다.
+    2. 그중 상위 3개만 잘라서 가져옵니다.
+  {% endcomment %}
+  {% assign sorted_pubs = site.data.publications | sort: "date" | reverse %}
+  {% assign recent_pubs = sorted_pubs | slice: 0, 3 %}
   {% for paper in recent_pubs %}
     <div class="box" style="margin-bottom: 1.2rem; padding: 1.2rem;">
       <p class="is-size-6 has-text-weight-bold" style="margin-bottom: 0.2rem; line-height: 1.3;">
-        {{ paper.title }}
+        {{ paper.title | markdownify | remove: '<p>' | remove: '</p>' }}
       </p>
       <p class="is-size-7 has-text-grey" style="margin-bottom: 0.2rem;">
         {{ paper.authors | markdownify | remove: '<p>' | remove: '</p>' }}
       </p>
       <p class="is-size-7 has-text-link is-italic" style="margin-bottom: 0;">
-        {{ paper.venue }} ({{ paper.date_detail }})
+        <span style="color: #005BAC !important;">
+        {{ paper.venue | markdownify | remove: '<p>' | remove: '</p>' | replace: '<strong>', '<strong style="color: inherit !important;">' }}
+        </span>
+        ({{ paper.date_detail }})
       </p>
     </div>
   {% endfor %}
