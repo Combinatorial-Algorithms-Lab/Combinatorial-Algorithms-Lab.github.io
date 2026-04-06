@@ -82,6 +82,15 @@
 
 # Refereed Conference Papers
 
+- year: 2026
+  date: 2026-04-01
+  date_detail: "April 2026"
+  title: "Optimal b-colourings and fall colourings in H-free graphs"
+  authors: "**Jungho Ahn**, Tala Eagling-Vose, Felicia Lucke, David Manlove, Fabricio Mendoza, and Daniël Paulusma"
+  venue: "The 52nd International Workshop on Graph-Theoretic Concepts in Computer Science (**WG 2026**)"
+  type: "Refereed Conference Papers"  # 카테고리 명칭 일치 필수 (Preprints, Accepted Journal Papers, Refereed Conference Papers)
+  pdf: "/assets/pdf/CALarxiv7.pdf"
+
 - year: 2025
   date: 2025-12-01
   date_detail: "December 2025"
