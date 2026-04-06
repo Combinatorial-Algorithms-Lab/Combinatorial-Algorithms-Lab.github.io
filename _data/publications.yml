@@ -83,8 +83,8 @@
 # Refereed Conference Papers
 
 - year: 2026
-  date: 2026-04-01
-  date_detail: "April 2026"
+  date: 2026-06-01
+  date_detail: "June 2026"
   title: "Optimal b-colourings and fall colourings in H-free graphs"
   authors: "**Jungho Ahn**, Tala Eagling-Vose, Felicia Lucke, David Manlove, Fabricio Mendoza, and Daniël Paulusma"
   venue: "The 52nd International Workshop on Graph-Theoretic Concepts in Computer Science (**WG 2026**)"
